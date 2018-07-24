@@ -24,15 +24,10 @@ def skip_step_right
 end
 
 def skip_step
-  skip_step_right
   skip_step_left
+  skip_step_right
 end
 
-def lowerbody
-  starting_stance
-  base_footwork
-  skip_step
-end
 
 def bob_the_reins
   puts "Holding your arms out in front of you, straight and at chest level"
@@ -40,4 +35,5 @@ def bob_the_reins
   puts "Lift your arms up and down in a loose bouncing movement, in time with the beat of the song. This movement is repeated eight times."
 end
 
-
+def lasso
+  puts ""
