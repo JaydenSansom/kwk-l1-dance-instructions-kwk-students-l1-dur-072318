@@ -5,7 +5,7 @@ def starting_stance
   puts "Plant legs far apart, bend knees slightly and keep posture loose"
 end
 
-def lowerbody
+def base_footwork
   puts "Lift right foot"
   puts "Return right foot to the ground."
   puts "Finishing with a small skip step"
@@ -28,3 +28,13 @@ def skip_step
   skip_step_left
 end
 
+def lowerbody
+  starting_stance
+  base_footwork
+  skip_step
+end
+
+def bob_the_reins
+  puts "Holding your arms out in front of you, straight and at chest level"
+  puts "Cross your right wrist over your left and hold them together"
+  puts ""
