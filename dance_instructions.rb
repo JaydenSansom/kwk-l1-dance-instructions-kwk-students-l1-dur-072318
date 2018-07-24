@@ -5,7 +5,7 @@ def starting_stance
   puts "Plant legs far apart, bend knees slightly and keep posture loose"
 end
 
-def base_footwork
+def footwork
   puts "Lift right foot"
   puts "Return right foot to the ground."
   puts "Finishing with a small skip step"
@@ -24,8 +24,8 @@ def skip_step_right
 end
 
 def skip_step
-  skip_step_left
   skip_step_right
+  skip_step_left
 end
 
 
@@ -41,8 +41,41 @@ def lasso
   puts "Raise right forearm so that it points straight up, and whip it in small circles to the beat of the song, as if you were a cowboy holding a rope lasso. This movement is repeated eight times as well."
 end
 
-bob_the_reins
-bob_the_reins
-bob_the_reins
-bob_the_reins
-bob_the_reins
+def bust_a_move
+  puts "Be cool"
+  puts "Be snazzy!"
+end
+
+def bob_skip
+  bob_the_reins
+  skip_step
+end
+
+def lasso_skip
+  lasso
+  skip_step
+end
+
+def gangnam_style
+  starting_stance
+  bust_a_move
+  footwork
+  bob_skip
+  bob_skip
+  bob_skip
+  bob_skip
+  bob_skip
+  bob_skip
+  bob_skip
+  bob_skip
+  lasso_skip
+  lasso_skip
+  lasso_skip
+  lasso_skip
+  lasso_skip
+  lasso_skip
+  lasso_skip
+  lasso_skip
+end
+
+gangnam_style
